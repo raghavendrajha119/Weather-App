@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(141, 141, 158);
+}
+main.grp{
+    
+    
+   
+    padding-bottom: 5px;
+}
+.pink{
+    padding: 10px;
+    padding-top: 20px;
+    background-color: rgb(107, 66, 146) ;opacity: 0.8 ;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-decoration: none ;color: ghostwhite; padding-bottom: 20px; font-size: 40px; font-weight: 100;display: flex;
+    transition-property: text;
+    display: flex;
+    justify-content: space-between;
+}
+.lk a{
+    color: white;
+}
+.lk a:hover{
+    color: black;
+}
+    
+    
+    
+    
+    
+
+#pop{
+    margin-top: 90px;
+    font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 500; color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    background-color: ghostwhite;
+    opacity: 0.75;
+    border-radius: 25px;
+    height: 300px;
+    width: 400px;
+    box-shadow: 5px;
+    
+}
+.side{
+    
+    
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: black;
+    background-color: ghostwhite;
+    opacity: 0.75;
+    border-radius: 25px;
+    padding: 30px;
+    height: 110px;
+    width: 800px;
+    box-shadow: 5px;
+}
+.ip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+#weather{
+    
+    display: flex;
+    font-size: 20px;
+    background-color: ghostwhite;
+    opacity: 0.75;
+    border-radius: 25px;
+    height: 110px;
+    width: 300px;
+    padding-bottom: 20px;
+    margin-right: 80px;
+    box-shadow: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding-top: 25px;
+    gap: 80px;
+}
+#search{
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1px 5px grey;
+}
+@media (min-aspect-ratio: 16/9){
+    .video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .video{
+        width: auto;
+        height: 100%;
+    }
+}
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.8;
+}

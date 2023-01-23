@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="custom.css">
+    <title>Weather</title>
+</head>
+<body>
+    <main>
+        <main class="grp">
+            <div class="pink">
+                <h2 style="font-weight: 500;">
+                    Weather App
+                </h2>
+                <ul style="display: flex; justify-content: center; text-decoration: none;list-style: none; gap: 50px;">
+                    <li class="lk"><a href="./index.html">Home </a>  </li>
+                    <li class="lk"><a href="./index.html">About</a></li>
+                    
+                </ul>
+            </div>
+            <section>
+                <video src="./video/Aerial Shot Of Sunset.mp4" autoplay loop muted plays-inline class="video"></video>
+            </section>
+            <section style="display: flex; justify-content: center; align-items: center; ">
+                <div class="row" id="pop" style="text-align: center;">
+                    <p class="pop">
+                        Enter the location where you want to see the climate today.
+                    </p>
+                    <form action="" >
+                        <input type="search" name="search" id="search" placeholder="Enter City">        
+                    </form>
+                </div>
+            </section>
+            <section class="ip">
+                <div style="display: flex; justify-content: center; align-items: center;"  id="weather">
+                    <div>
+                        <img src="" alt="">  
+                    </div>
+                    <div>
+                        <h2></h2>
+                        <h4></h4>
+                    </div>   
+                </div>
+                <div class="side"  id="weather1">
+                    <div>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <h4></h4>
+                    </div>
+                </div>
+            </section>   
+        </main>           
+    </main> 
+    <script src="app.js"></script>
+</body>
+</html>
